@@ -29,6 +29,24 @@ namespace PubSubService
 
                     host.ChangeName("Marko");
 
+                    message = "Press <Enter> to change name.";
+
+
+                    Console.WriteLine(message);
+
+                    Console.ReadLine();
+
+                    host.ChangeName("Test M");
+
+                    message = "Press <Enter> to change name.";
+
+
+                    Console.WriteLine(message);
+
+                    Console.ReadLine();
+
+                    host.ChangeName("PUB SUB TEST NAME");
+
                     Console.WriteLine("Press <Enter> to end");
                 }
             }

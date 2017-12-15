@@ -16,6 +16,17 @@ namespace PubSubClient
 
             PubSubProxy.Instance.Subscribe();
 
+            Console.WriteLine("Press <Enter> to unsubscribe.");
+            Console.ReadKey();
+
+            PubSubProxy.Instance.Unsubscribe();
+
+            Console.WriteLine("Press <Enter> to subscribe");
+            Console.ReadKey();
+
+            PubSubProxy.Instance.Subscribe();
+
+            Console.WriteLine("Press <Enter> to end");
             Console.ReadKey();
             
         }

@@ -6,3 +6,11 @@ D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\ServiceContract.pdb
 D:\WcfPubSub\WcfPubSub\PubSubClient\obj\Debug\PubSubClient.csprojResolveAssemblyReference.cache
 D:\WcfPubSub\WcfPubSub\PubSubClient\obj\Debug\PubSubClient.exe
 D:\WcfPubSub\WcfPubSub\PubSubClient\obj\Debug\PubSubClient.pdb
+D:\GitRepo\WcfPubSubExample\PubSubClient\bin\Debug\PubSubClient.exe.config
+D:\GitRepo\WcfPubSubExample\PubSubClient\bin\Debug\PubSubClient.exe
+D:\GitRepo\WcfPubSubExample\PubSubClient\bin\Debug\PubSubClient.pdb
+D:\GitRepo\WcfPubSubExample\PubSubClient\bin\Debug\ServiceContract.dll
+D:\GitRepo\WcfPubSubExample\PubSubClient\bin\Debug\ServiceContract.pdb
+D:\GitRepo\WcfPubSubExample\PubSubClient\obj\Debug\PubSubClient.csprojResolveAssemblyReference.cache
+D:\GitRepo\WcfPubSubExample\PubSubClient\obj\Debug\PubSubClient.exe
+D:\GitRepo\WcfPubSubExample\PubSubClient\obj\Debug\PubSubClient.pdb
