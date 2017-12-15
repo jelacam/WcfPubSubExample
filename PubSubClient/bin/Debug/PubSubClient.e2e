@@ -1,0 +1,1264 @@
+System.ServiceModel Transfer: 0 : , relatedActivityId=6de27b15-cf2c-4472-ab8a-4b7076b1fae7
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.</Message><StackTrace>   at System.ServiceModel.ChannelFactory.CreateEndpointAddress(ServiceEndpoint endpoint)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at ServiceContract.PubSubProxy.get_Instance()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.InvalidOperationException: The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.</Message><StackTrace>   at System.ServiceModel.ChannelFactory.CreateEndpointAddress(ServiceEndpoint endpoint)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at ServiceContract.PubSubProxy.get_Instance() in D:\WcfPubSub\WcfPubSub\ServiceContract\PubSubProxy.cs:line 23
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.InvalidOperationException: The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.
+   at System.ServiceModel.ChannelFactory.CreateEndpointAddress(ServiceEndpoint endpoint)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at ServiceContract.PubSubProxy.get_Instance() in D:\WcfPubSub\WcfPubSub\ServiceContract\PubSubProxy.cs:line 23
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Information: 131073 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.AppDomainUnload.aspx</TraceIdentifier><Description>AppDomain unloading.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><AppDomain.FriendlyName>PubSubClient.vshost.exe</AppDomain.FriendlyName><ProcessName>PubSubClient.vshost</ProcessName><ProcessId>6704</ProcessId></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.InvalidOperationException: The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.
+   at System.ServiceModel.ChannelFactory.CreateEndpointAddress(ServiceEndpoint endpoint)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at ServiceContract.PubSubProxy.get_Instance() in D:\WcfPubSub\WcfPubSub\ServiceContract\PubSubProxy.cs:line 23
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.   at System.ServiceModel.ChannelFactory.CreateEndpointAddress(ServiceEndpoint endpoint)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at ServiceContract.PubSubProxy.get_Instance() in D:\WcfPubSub\WcfPubSub\ServiceContract\PubSubProxy.cs:line 23
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.InvalidOperationException: The Address property on ChannelFactory.Endpoint was null.  The ChannelFactory's Endpoint must have a valid Address specified.
+   at System.ServiceModel.ChannelFactory.CreateEndpointAddress(ServiceEndpoint endpoint)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at ServiceContract.PubSubProxy.get_Instance() in D:\WcfPubSub\WcfPubSub\ServiceContract\PubSubProxy.cs:line 23
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Information: 131073 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.AppDomainUnload.aspxAppDomain unloading. AppDomain.FriendlyName PubSubClient.vshost.exe, ProcessName PubSubClient.vshost, ProcessId 6704.PubSubClient.vshost.exe
+System.ServiceModel Transfer: 0 : , relatedActivityId=ff5e02be-b296-4141-85c1-24969ac47924
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=bfdb8ecf-3fe6-4f8a-9a8d-37aadfc2b0b9
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=b23eed86-6cc8-426d-a13d-30eab17e6c81
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524331 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.ServiceChannelLifetime.aspx</TraceIdentifier><Description>ServiceChannel information.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ContractNamespace>http://tempuri.org/</ContractNamespace><ContractName>IPubSubService</ContractName></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262187 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.InitiatingTcpConnection.aspx</TraceIdentifier><Description>Initiating TCP connection.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnectionInitiator/52066542</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/StringTraceRecord"><Uri>net.tcp://localhost:10000/PubSubService</Uri></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262169 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.SocketConnectionCreate.aspx</TraceIdentifier><Description>SocketConnection create</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnection/47413886</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><State>Open</State><LocalEndpoint>[::1]:61699</LocalEndpoint><RemoteEndPoint>[::1]:10000</RemoteEndPoint></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=56f03b4a-7482-4889-a283-af5baca07b42
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Receive bytes on connection 'net.tcp://localhost:10000/PubSubService'.</ActivityName><ActivityType>ReceiveBytes</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262164 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageSent.aspx</TraceIdentifier><Description>Sent a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><AllowOutputBatching>False</AllowOutputBatching></MessageProperties><MessageHeaders><Action d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/Subscribe</Action><MessageID xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:92c62a8c-6324-4ec4-9c65-4b7f493fea97</MessageID><ActivityId CorrelationId="73f1e342-9aea-4aab-8e5f-88894d16097d" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">b23eed86-6cc8-426d-a13d-30eab17e6c81</ActivityId><ReplyTo xmlns="http://www.w3.org/2005/08/addressing"><Address>http://www.w3.org/2005/08/addressing/anonymous</Address></ReplyTo><VsDebuggerCausalityData xmlns="http://schemas.microsoft.com/vstudio/diagnostics/servicemodelsink"></VsDebuggerCausalityData><To d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">net.tcp://localhost:10000/PubSubService</To></MessageHeaders><RemoteAddress>net.tcp://localhost:10000/PubSubService</RemoteAddress></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262163 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageReceived.aspx</TraceIdentifier><Description>Received a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><Encoder>application/soap+msbinsession1</Encoder><AllowOutputBatching>False</AllowOutputBatching><Via>http://www.w3.org/2005/08/addressing/anonymous</Via></MessageProperties><MessageHeaders><Action d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/SubscribeResponse</Action><RelatesTo xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:92c62a8c-6324-4ec4-9c65-4b7f493fea97</RelatesTo><To d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://www.w3.org/2005/08/addressing/anonymous</To></MessageHeaders><LocalAddress>http://schemas.microsoft.com/2005/12/ServiceModel/Addressing/Anonymous</LocalAddress></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=9732ab96-ee37-42b6-b6cf-1695300e7762
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=288d194e-c8b9-4a72-9f1e-26eff0accd0b
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=6c01d727-6f9e-487c-9fd2-61e2d74c2fe5
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524331 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.ServiceChannelLifetime.aspx</TraceIdentifier><Description>ServiceChannel information.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ContractNamespace>http://tempuri.org/</ContractNamespace><ContractName>IPubSubService</ContractName></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262187 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.InitiatingTcpConnection.aspx</TraceIdentifier><Description>Initiating TCP connection.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnectionInitiator/52066542</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/StringTraceRecord"><Uri>net.tcp://localhost:10000/PubSubService</Uri></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262169 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.SocketConnectionCreate.aspx</TraceIdentifier><Description>SocketConnection create</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnection/47413886</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><State>Open</State><LocalEndpoint>[::1]:61717</LocalEndpoint><RemoteEndPoint>[::1]:10000</RemoteEndPoint></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=340f9da4-d5cb-4b8e-b4e6-f91a8ee3d5fc
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Receive bytes on connection 'net.tcp://localhost:10000/PubSubService'.</ActivityName><ActivityType>ReceiveBytes</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262164 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageSent.aspx</TraceIdentifier><Description>Sent a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><AllowOutputBatching>False</AllowOutputBatching></MessageProperties><MessageHeaders><Action d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/Subscribe</Action><MessageID xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:1b46a775-0f8f-451d-9115-33b4ce3dc57a</MessageID><ActivityId CorrelationId="c630a04e-0c1b-41d8-bce7-32c90d7b1f10" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">6c01d727-6f9e-487c-9fd2-61e2d74c2fe5</ActivityId><ReplyTo xmlns="http://www.w3.org/2005/08/addressing"><Address>http://www.w3.org/2005/08/addressing/anonymous</Address></ReplyTo><VsDebuggerCausalityData xmlns="http://schemas.microsoft.com/vstudio/diagnostics/servicemodelsink"></VsDebuggerCausalityData><To d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">net.tcp://localhost:10000/PubSubService</To></MessageHeaders><RemoteAddress>net.tcp://localhost:10000/PubSubService</RemoteAddress></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262163 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageReceived.aspx</TraceIdentifier><Description>Received a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><Encoder>application/soap+msbinsession1</Encoder><AllowOutputBatching>False</AllowOutputBatching><Via>http://www.w3.org/2005/08/addressing/anonymous</Via></MessageProperties><MessageHeaders><Action d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/SubscribeResponse</Action><RelatesTo xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:1b46a775-0f8f-451d-9115-33b4ce3dc57a</RelatesTo><To d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://www.w3.org/2005/08/addressing/anonymous</To></MessageHeaders><LocalAddress>http://schemas.microsoft.com/2005/12/ServiceModel/Addressing/Anonymous</LocalAddress></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=546bfbbd-55dc-492d-a951-4f57b9e18719
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=08ffee59-ed08-445d-9269-b4cce19df4f2
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=081eacd3-aa58-464c-9eb3-b224b78b5576
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524331 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.ServiceChannelLifetime.aspx</TraceIdentifier><Description>ServiceChannel information.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ContractNamespace>http://tempuri.org/</ContractNamespace><ContractName>IPubSubService</ContractName></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262187 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.InitiatingTcpConnection.aspx</TraceIdentifier><Description>Initiating TCP connection.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnectionInitiator/52066542</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/StringTraceRecord"><Uri>net.tcp://localhost:10000/PubSubService</Uri></ExtendedData></TraceRecord>
+System.ServiceModel Warning: 262191 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.TcpConnectError.aspx</TraceIdentifier><Description>The TCP connect operation failed.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.Net.Sockets.Socket/47413886</Source><Exception><ExceptionType>System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:01.0157459. TCP error code 10061: No connection could be made because the target machine actively refused it [::1]:10000. </Message><StackTrace>   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.EndpointNotFoundException: Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:01.0157459. TCP error code 10061: No connection could be made because the target machine actively refused it [::1]:10000.  ---&amp;gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it [::1]:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- End of inner exception stack trace ---</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>No connection could be made because the target machine actively refused it [::1]:10000</Message><StackTrace>   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it [::1]:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</ExceptionString><NativeErrorCode>274D</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Warning: 262191 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.TcpConnectError.aspx</TraceIdentifier><Description>The TCP connect operation failed.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.Net.Sockets.Socket/9483329</Source><Exception><ExceptionType>System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:01.0008357. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. </Message><StackTrace>   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.EndpointNotFoundException: Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:01.0008357. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000.  ---&amp;gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- End of inner exception stack trace ---</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>No connection could be made because the target machine actively refused it 127.0.0.1:10000</Message><StackTrace>   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</ExceptionString><NativeErrorCode>274D</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. </Message><StackTrace>   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.EndpointNotFoundException: Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000.  ---&amp;gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- End of inner exception stack trace ---</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>No connection could be made because the target machine actively refused it 127.0.0.1:10000</Message><StackTrace>   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</ExceptionString><NativeErrorCode>274D</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Warning: 524293 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.CommunicationObjectOpenFailed.aspx</TraceIdentifier><Description>Failed to open System.ServiceModel.Channels.ClientFramingDuplexSessionChannel</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source></TraceRecord>
+System.ServiceModel Warning: 524299 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.CommunicationObjectFaulted.aspx</TraceIdentifier><Description>Faulted System.ServiceModel.Channels.ClientFramingDuplexSessionChannel</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source></TraceRecord>
+System.ServiceModel Warning: 524299 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.CommunicationObjectFaulted.aspx</TraceIdentifier><Description>Faulted System.ServiceModel.Channels.ServiceChannel</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source></TraceRecord>
+System.ServiceModel Warning: 524293 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.CommunicationObjectOpenFailed.aspx</TraceIdentifier><Description>Failed to open System.ServiceModel.Channels.ServiceChannel</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. </Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.EndpointNotFoundException: Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000.  ---&amp;gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>No connection could be made because the target machine actively refused it 127.0.0.1:10000</Message><StackTrace>   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)</ExceptionString><NativeErrorCode>274D</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Information: 131073 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.AppDomainUnload.aspx</TraceIdentifier><Description>AppDomain unloading.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><AppDomain.FriendlyName>PubSubClient.vshost.exe</AppDomain.FriendlyName><ProcessName>PubSubClient.vshost</ProcessName><ProcessId>8060</ProcessId></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.EndpointNotFoundException: Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000.  ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+Server stack trace: 
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.EndpointNotFoundException: Could not connect to net.tcp://localhost:10000/PubSubService. The connection attempt lasted for a time span of 00:00:02.0215814. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000.  ---&gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.TracingConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089No connection could be made because the target machine actively refused it 127.0.0.1:10000   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)274D
+System.ServiceModel Information: 131073 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.AppDomainUnload.aspxAppDomain unloading. AppDomain.FriendlyName PubSubClient.vshost.exe, ProcessName PubSubClient.vshost, ProcessId 8060.PubSubClient.vshost.exe
+System.ServiceModel Transfer: 0 : , relatedActivityId=b6ef243e-2580-4437-b82f-ba8ffbf46a06
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Transfer: 0 : , relatedActivityId=22c6eb7f-df27-4e52-9599-9c757e612907
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Transfer: 0 : , relatedActivityId=5b2a86ba-869c-43cb-bbae-06f5c4939db6
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Transfer: 0 : , relatedActivityId=2c98a743-cf58-4b40-a1f6-15097df35790
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Transfer: 0 : , relatedActivityId=24d362f7-da1c-4014-b998-8e0d8c4d3473
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Transfer: 0 : , relatedActivityId=03828bca-fa7b-4611-b30d-cba4b83d26b7
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args)
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Critical: 131077 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>UnhandledException</TraceIdentifier><Description>Unhandled exception</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.</Message><StackTrace>
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace><ExceptionString>System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp;amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</ExceptionString></Exception></TraceRecord>
+System.ServiceModel Critical: 131077 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.UnhandledException.aspxUnhandled exception.  Exception details: System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()PubSubClient.vshost.exeSystem.ServiceModel.CommunicationObjectFaultedException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ServiceContract.IPubSubService.Subscribe()
+   at PubSubClient.Program.Main(String[] args) in D:\WcfPubSub\WcfPubSub\PubSubClient\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.ServiceModel Transfer: 0 : , relatedActivityId=8bcd5412-1068-4fdc-90b1-f8b264e4f4c1
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524323 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.GetChannelEndpointElement.aspx</TraceIdentifier><Description>Get ChannelEndpointElement.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><FoundChannelElement>True</FoundChannelElement><Name>*</Name><ContractName>ServiceContract.IPubSubService</ContractName><Binding>netTcpBinding</Binding><BindingConfiguration>netTcpBindingNoSecurity</BindingConfiguration><RemoteEndpointUri>net.tcp://localhost:10000/PubSubService</RemoteEndpointUri><ConfigurationFileSource>D:\WcfPubSub\WcfPubSub\PubSubClient\bin\Debug\PubSubClient.vshost.exe.Config</ConfigurationFileSource><ConfigurationFileLineNumber>38</ConfigurationFileLineNumber></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'System.ServiceModel.DuplexChannelFactory`1[ServiceContract.IPubSubService]/8810861'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=ffdc5083-d5fb-46fe-9cdb-1bc6339d3f7a
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ChannelFactory. Contract type: 'ServiceContract.IPubSubService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=817a043d-67e9-4885-acd2-0f688bd83929
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 524331 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.ServiceChannelLifetime.aspx</TraceIdentifier><Description>ServiceChannel information.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ContractNamespace>http://tempuri.org/</ContractNamespace><ContractName>IPubSubService</ContractName></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262187 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.InitiatingTcpConnection.aspx</TraceIdentifier><Description>Initiating TCP connection.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnectionInitiator/52066542</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/StringTraceRecord"><Uri>net.tcp://localhost:10000/PubSubService</Uri></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262169 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.SocketConnectionCreate.aspx</TraceIdentifier><Description>SocketConnection create</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnection/47413886</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><State>Open</State><LocalEndpoint>[::1]:62010</LocalEndpoint><RemoteEndPoint>[::1]:10000</RemoteEndPoint></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=f062f4ab-c138-42c4-a298-3eed28d2cdda
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Receive bytes on connection 'net.tcp://localhost:10000/PubSubService'.</ActivityName><ActivityType>ReceiveBytes</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262164 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageSent.aspx</TraceIdentifier><Description>Sent a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><AllowOutputBatching>False</AllowOutputBatching></MessageProperties><MessageHeaders><Action d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/Subscribe</Action><MessageID xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:b39f9133-060e-499e-80c4-04cc1108c0c6</MessageID><ActivityId CorrelationId="729f690a-3edb-43b2-9810-08079ed28d7d" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">817a043d-67e9-4885-acd2-0f688bd83929</ActivityId><ReplyTo xmlns="http://www.w3.org/2005/08/addressing"><Address>http://www.w3.org/2005/08/addressing/anonymous</Address></ReplyTo><VsDebuggerCausalityData xmlns="http://schemas.microsoft.com/vstudio/diagnostics/servicemodelsink"></VsDebuggerCausalityData><To d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">net.tcp://localhost:10000/PubSubService</To></MessageHeaders><RemoteAddress>net.tcp://localhost:10000/PubSubService</RemoteAddress></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262163 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageReceived.aspx</TraceIdentifier><Description>Received a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><Encoder>application/soap+msbinsession1</Encoder><AllowOutputBatching>False</AllowOutputBatching><Via>http://www.w3.org/2005/08/addressing/anonymous</Via></MessageProperties><MessageHeaders><Action d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/SubscribeResponse</Action><RelatesTo xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:b39f9133-060e-499e-80c4-04cc1108c0c6</RelatesTo><To d4p1:mustUnderstand="1" xmlns:d4p1="http://www.w3.org/2003/05/soap-envelope" xmlns="http://www.w3.org/2005/08/addressing">http://www.w3.org/2005/08/addressing/anonymous</To></MessageHeaders><LocalAddress>http://schemas.microsoft.com/2005/12/ServiceModel/Addressing/Anonymous</LocalAddress></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=00000000-0000-0000-0000-000000000000
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IPubSubService/Subscribe'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 262163 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.MessageReceived.aspx</TraceIdentifier><Description>Received a message over a channel.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTransmitTraceRecord"><MessageProperties><Encoder>application/soap+msbinsession1</Encoder><AllowOutputBatching>False</AllowOutputBatching><Via>http://www.w3.org/2005/08/addressing/anonymous</Via></MessageProperties><MessageHeaders><a:Action s:mustUnderstand="1" xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">http://tempuri.org/IPubSubService/NameChange</a:Action><a:To s:mustUnderstand="1" xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">http://www.w3.org/2005/08/addressing/anonymous</a:To></MessageHeaders><LocalAddress>http://schemas.microsoft.com/2005/12/ServiceModel/Addressing/Anonymous</LocalAddress></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=b11a4325-b52b-4a06-922a-ce585123bbb7
+System.ServiceModel Start: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Execute 'ServiceContract.IPubSubContract.NameChange'.</ActivityName><ActivityType>ExecuteUserCode</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Transfer: 0 : , relatedActivityId=817a043d-67e9-4885-acd2-0f688bd83929
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Execute 'ServiceContract.IPubSubContract.NameChange'.</ActivityName><ActivityType>ExecuteUserCode</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>An existing connection was forcibly closed by the remote host</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsyncCompleted(Object sender, SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncFailure(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   at System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host</ExceptionString><NativeErrorCode>2746</NativeErrorCode></Exception></TraceRecord>
+System.ServiceModel Error: 262256 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.TcpConnectionResetError.aspx</TraceIdentifier><Description>The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'. The local IP address and port is [::1]:62010. The remote IP address and port is [::1]:10000.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/MessageTraceRecord"></ExtendedData><Exception><ExceptionType>System.ServiceModel.CommunicationException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'.</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.ConvertTransferException(SocketException socketException, TimeSpan timeout, Exception originalException, TransferOperation transferOperation, Boolean aborted, String timeoutErrorString, TransferOperation timeoutErrorTransferOperation, SocketConnection socketConnection, TimeSpan remainingTime)
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsyncCompleted(Object sender, SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncFailure(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   at System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationException: The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'. ---&amp;gt; System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)
+   --- End of inner exception stack trace ---</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>An existing connection was forcibly closed by the remote host</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)</ExceptionString><NativeErrorCode>2746</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'.</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.EndRead()
+   at System.ServiceModel.Channels.DelegatingConnection.EndRead()
+   at System.ServiceModel.Channels.TracingConnection.EndRead()
+   at System.ServiceModel.Channels.SessionConnectionReader.OnAsyncReadComplete(Object state)
+   at System.ServiceModel.Channels.TracingConnection.TracingConnectionState.ExecuteCallback()
+   at System.ServiceModel.Channels.TracingConnection.WaitCallback(Object state)
+   at System.ServiceModel.Channels.SocketConnection.FinishRead()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsyncCompleted(Object sender, SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncFailure(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   at System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+</StackTrace><ExceptionString>System.ServiceModel.CommunicationException: The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'. ---&amp;gt; System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)
+   --- End of inner exception stack trace ---</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>An existing connection was forcibly closed by the remote host</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)</ExceptionString><NativeErrorCode>2746</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Error: 131075 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Error"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ThrowingException.aspx</TraceIdentifier><Description>Throwing an exception.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Exception><ExceptionType>System.ServiceModel.CommunicationException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'.</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.EndRead()
+   at System.ServiceModel.Channels.DelegatingConnection.EndRead()
+   at System.ServiceModel.Channels.TracingConnection.EndRead()
+   at System.ServiceModel.Channels.SessionConnectionReader.OnAsyncReadComplete(Object state)</StackTrace><ExceptionString>System.ServiceModel.CommunicationException: The socket connection was aborted. This could be caused by an error processing your message or a receive timeout being exceeded by the remote host, or an underlying network resource issue. Local socket timeout was '10675199.02:48:05.4775807'. ---&amp;gt; System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.SocketConnection.EndRead()
+   at System.ServiceModel.Channels.DelegatingConnection.EndRead()
+   at System.ServiceModel.Channels.TracingConnection.EndRead()
+   at System.ServiceModel.Channels.SessionConnectionReader.OnAsyncReadComplete(Object state)</ExceptionString><InnerException><ExceptionType>System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>An existing connection was forcibly closed by the remote host</Message><StackTrace>   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)</StackTrace><ExceptionString>System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.ServiceModel.Channels.SocketConnection.HandleReceiveAsyncCompleted()
+   at System.ServiceModel.Channels.SocketConnection.OnReceiveAsync(Object sender, SocketAsyncEventArgs eventArgs)</ExceptionString><NativeErrorCode>2746</NativeErrorCode></InnerException></Exception></TraceRecord>
+System.ServiceModel Warning: 524299 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.CommunicationObjectFaulted.aspx</TraceIdentifier><Description>Faulted System.ServiceModel.Channels.ClientFramingDuplexSessionChannel</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ClientFramingDuplexSessionChannel/45057425</Source></TraceRecord>
+System.ServiceModel Warning: 524299 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.CommunicationObjectFaulted.aspx</TraceIdentifier><Description>Faulted System.ServiceModel.Channels.ServiceChannel</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.ServiceChannel/23172240</Source></TraceRecord>
+System.ServiceModel Warning: 262171 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Warning"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Channels.SocketConnectionAbort.aspx</TraceIdentifier><Description>SocketConnection aborted</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><Source>System.ServiceModel.Channels.SocketConnection/47413886</Source></TraceRecord>
+System.ServiceModel Stop: 131085 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.ActivityBoundary.aspx</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Receive bytes on connection 'net.tcp://localhost:10000/PubSubService'.</ActivityName><ActivityType>ReceiveBytes</ActivityType></ExtendedData></TraceRecord>
+System.ServiceModel Information: 131073 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Information"><TraceIdentifier>http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.AppDomainUnload.aspx</TraceIdentifier><Description>AppDomain unloading.</Description><AppDomain>PubSubClient.vshost.exe</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><AppDomain.FriendlyName>PubSubClient.vshost.exe</AppDomain.FriendlyName><ProcessName>PubSubClient.vshost</ProcessName><ProcessId>11516</ProcessId></ExtendedData></TraceRecord>
+System.ServiceModel Information: 131073 : http://msdn.microsoft.com/en-US/library/System.ServiceModel.Diagnostics.AppDomainUnload.aspxAppDomain unloading. AppDomain.FriendlyName PubSubClient.vshost.exe, ProcessName PubSubClient.vshost, ProcessId 11516.PubSubClient.vshost.exe

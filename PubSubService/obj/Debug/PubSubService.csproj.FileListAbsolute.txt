@@ -1,0 +1,8 @@
+D:\WcfPubSub\WcfPubSub\PubSubService\bin\Debug\PubSubService.exe.config
+D:\WcfPubSub\WcfPubSub\PubSubService\bin\Debug\PubSubService.exe
+D:\WcfPubSub\WcfPubSub\PubSubService\bin\Debug\PubSubService.pdb
+D:\WcfPubSub\WcfPubSub\PubSubService\bin\Debug\ServiceContract.dll
+D:\WcfPubSub\WcfPubSub\PubSubService\bin\Debug\ServiceContract.pdb
+D:\WcfPubSub\WcfPubSub\PubSubService\obj\Debug\PubSubService.csprojResolveAssemblyReference.cache
+D:\WcfPubSub\WcfPubSub\PubSubService\obj\Debug\PubSubService.exe
+D:\WcfPubSub\WcfPubSub\PubSubService\obj\Debug\PubSubService.pdb

@@ -1,0 +1,4 @@
+D:\WcfPubSub\WcfPubSub\ServiceContract\bin\Debug\ServiceContract.dll
+D:\WcfPubSub\WcfPubSub\ServiceContract\bin\Debug\ServiceContract.pdb
+D:\WcfPubSub\WcfPubSub\ServiceContract\obj\Debug\ServiceContract.dll
+D:\WcfPubSub\WcfPubSub\ServiceContract\obj\Debug\ServiceContract.pdb
